@@ -24,7 +24,7 @@ function maxDigits(arr) {
 function getDigits(num) {
   if (num === 0) return 1;
   return Math.floor(Math.log10(Math.abs(num))) + 1;
-}
+}  
 
 function getDigitInPlace(num, i) {
   return Math.floor(Math.abs(num) / Math.pow(10, i)) % 10;
